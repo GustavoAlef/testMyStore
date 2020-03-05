@@ -4,7 +4,7 @@ module.exports = {
   "Dado eu estiver logado no site": browser => {
     let pgobj = browser.page.login();
 
-    pgobj.using("zxc@email.com", "123asd", "simon citri");
+    pgobj.using("simao.citrino@email.com.br", "12345", "Simao Citrino");
   },
 
   'Quando eu for para a pagina principal e adicionar os produtos "Best Sellers" ao carrinho': browser => {

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="compra.addProductsAndPay.test"
+    errors="0" failures="0" hostname="" id="" package="compra" skipped="0"
+    tests="3" time="20.30" timestamp="">
+  
+    <testcase name="Dado eu estiver logado no site" classname="compra.addProductsAndPay.test" time="5.683" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Quando eu for para a pagina principal e adicionar os produtos &#34;Best Sellers&#34; ao carrinho" classname="compra.addProductsAndPay.test" time="7.116" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Entao eu continuo o processo da compra" classname="compra.addProductsAndPay.test" time="7.496" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

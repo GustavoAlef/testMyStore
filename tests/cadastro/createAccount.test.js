@@ -1,8 +1,8 @@
 let userData = {};
 
 module.exports = {
-  "@tags": ["createUser"],
-  
+  "@tags": ["cadastro"],
+
   before: browser => {
     userData = {
       firstName: "Simao",
@@ -20,7 +20,7 @@ module.exports = {
   'Dado eu acessar a home page do site': browser => {
     let pgobj = browser.page.createAccount();
 
-    pgobj.goToForm("simao.citrino@email.com.br")
+    pgobj.goToForm("simon.citrino@email.com.br")
   },
 
   'Quando eu preencher o formulario de cadastro e continuar': browser => {

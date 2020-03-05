@@ -5,6 +5,6 @@ module.exports = {
   "login com sucesso": browser => {
     let pgLogin = browser.page.login();
 
-    pgLogin.using("zxc@email.com", "123asd", "simon citri");
+    pgLogin.using("simao.citrino@email.com.br", "12345", "Simao Citrino");
   }
 };
